@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+* {padding: 0; margin: 0 auto; list-style: none; font-family: "맑은 고딕"; color: #333333;}
+
+body {width: 1000px; font-size: 20px; background-color: #ffffff;}
+
+a {text-decoration: none; display: block;}
+
+header {float: left; position: absolute;}
+
+.top {float: left; width: 200px; height: 650px;}
+
+.logo {width: 200px; height: 100px;}
+
+.logo img {margin-top: 30px;}
+
+.menu {width: 180px; position: absolute; z-index: 1; top: 100px; left: 10px; text-align: center;}
+
+.nav>li {width: 180px; display: block;}
+
+.nav>li>a {background-color: #1d315e; color: #ffffff; font-size: 16px; font-weight: bold; line-height: 40px;}
+
+.nav>li>a:hover {background-color: #c2d3fa; color: #1d315e;}
+
+.submenu {float: left; width: 180px; height: 100%; position: absolute; z-index: 1; left: 180px; top: 0; display: none;}
+
+.submenu>li>a {background-color: #c2d3fa; color: #1d315e; font-size: 14px; line-height: 40px;}
+
+.submenu>li>a:hover {font-weight: bold; background-color: #ffffff;}
+
+.wrap {width: 800px; float: right; height: 550px; }
+
+.slide {width: 800px; height: 350px; position: relative;overflow: hidden;}
+
+.slide a{position: absolute; overflow: hidden; transition: all 3s; display: block; left: 0; top: 0;}
+
+.imgtext {position: absolute; width: 300px; left: 70%; top: 80%; font-weight: bold;color: #ffffff; margin: -25px 0 0 -150px;}
+
+.wrap1 {width: 800px; height: 200px; float: right;  }
+
+.con1 {width: 300px; height: 200px; float: left;}
+
+.con1>ul {margin-top: 10px;}
+
+.con1 li {width: 290px;}
+
+.con1 li:nth-child(2n) {background-color: #dddddd;}
+
+.con1 li a{font-size: 14px; margin-left: 5px; margin-right: 5px; line-height: 30px;}
+
+.con1 li span {float: right;}
+
+.con1 li a:hover {font-weight: bold;}
+
+.tab {width: 300px; float: left;}
+
+.tab h4 {width: 90px; font-size: 15px; font-weight: bold; line-height: 30px; text-align: center; background-color: #1d315e; color: #ffffff;
+float: left;margin-top: 5px;}
+
+.tab h3 {width: 90px; font-size: 15px; font-weight: bold; line-height: 30px; text-align: center; background-color: #56616f; color: #ffffff;
+    float: left;margin-top: 5px;}
+    
+
+.con2 {width: 300px; height: 200px; float: left;}
+
+.con2 img {float: left; width: 80px; height: 120px; padding: 10px;}
+
+.con2 img:hover {opacity: 0.5;}
+
+.con3 {width: 200px; height: 200px; float: right;}
+
+.con3 img {width: 190px; height: 190px; margin-top: 5px; margin-left: 5px;}
+
+.con3:hover {opacity: 0.5;}
+
+.sctext {position: absolute; font-weight: bold; color: #ffffff; font-size: 18px; left: 79%; top: 72%;}
+
+#pop {position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1; display: none;}
+
+#pop.active {display: block;}
+
+.pop_up {width: 500px; height: 300px; position: fixed; left: 30%; top: 20%;background-color: #ffffff;}
+
+.uptitle {text-align: center; font-weight: bold; font-size: 20px; padding: 20px;}
+
+.upbody {font-size: 16px; padding: 20px;}
+
+.btn {position: absolute; width: 90px; height: 30px; line-height: 30px; font-weight: bold; font-size: 15px; text-align:center; 
+background-color: #1d315e; color: #ffffff; cursor: pointer; border-radius: 10px; right: 10px; bottom: 10px;}
+
+.btn:hover {opacity: 0.5;}
+
+footer {float: right; width: 800px; height: 100px;}
+
+.bottom {float: left; width: 800px; height: 100px; background-color: #56616f;}
+
+.btlogo {float: left; width: 200px; height: 100px;}
+
+.btlogo img {margin-top: 30px;}
+
+.side {float: right; width: 600px; height: 100px;}
+
+.btmenu {width: 600px; height: 50px; margin-left: 100px;}
+
+.btmenu li {float: left; font-size: 14px; text-align: center;  width: 120px; line-height: 50px; }
+
+.btmenu li:hover {font-weight: bold;}
+
+.copy {width: 600px; height: 50px; font-size: 13px; color: #ffffff; line-height: 50px; text-align: center;}
