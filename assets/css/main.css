@@ -2803,6 +2803,8 @@ input, select, textarea {
 		list-style: none;
 	}
 
+	.pfimg img{width: 200px; height: 100px;}
+
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
