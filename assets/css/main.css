@@ -2674,8 +2674,7 @@ input, select, textarea {
 	}
 
 	.major li {
-		margin-left: 75px;
-		margin-right: 75px;
+		margin: auto;
 	}
 
 	@media screen and (max-width: 736px) {
