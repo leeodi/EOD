@@ -1,0 +1,151 @@
+@charset "utf-8";/*86c6e3*/
+
+* {margin: 0 auto; padding: 0; list-style: none; font-family: 'Nanum Gothic Coding', monospace; color: #333333;}
+
+body {width: 1200px; background-color: #ffffff; font-size: 20px;}
+
+a {text-decoration: none; display: block;}
+
+header {width: 1200px; height: 100px; position: relative;}
+
+.top {width: 1200px; height: 100px; position: absolute; background-color: #ffffff; z-index: 1;}
+
+.logo {width: 220px; height: 100px; float:left;}
+
+.logo img {margin-top: 30px; margin-left: 10px;}
+
+.menu {float: right; width: 900px; position: absolute; right: 0; top: 60px; z-index: 1;}
+
+.nav li {width: 200px; height: 40px; background-color: #10080d; float: left; text-align: center;}
+
+.nav li a {font-size: 16px; color: #ffffff; line-height: 40px; }
+
+.nav li a:hover {font-weight: 900;}
+
+.submenu {display: none;}
+
+.submenu li {width: 200px; height: 30px; background-color: #ffffff; }
+
+.submenu li a{font-size: 14px; line-height: 30px; color: #333333;}
+
+.submenu li a:hover {background-color: #dddddd; font-weight: bold;}
+
+.slide {width: 1200px; height: 300px; position: relative; overflow: hidden;}
+
+.sldie img {width: 1200px; height: 350px;}
+
+.slide a {display: block; overflow: hidden; left: 0; top: 0; position: absolute; overflow: hidden; transition: all 6s;}
+
+
+.wrap1 {width: 1200px; }
+
+.tab {width: 450px; float: left;}
+
+.tab h4 {width: 100px; height: 30px; line-height: 30px; margin-top: 5px; margin-left: 5px; font-weight: bold; text-align: center;
+color: #ffffff; background-color: #333333; float: left; font-size: 15px;}
+
+.tab h3 {width: 100px; height: 30px; line-height: 30px; margin-top: 5px; margin-left: 5px; font-weight: bold; text-align: center;
+    color: #ffffff; background-color: #333333; float: left; font-size: 15px;}
+
+.con1 {width: 450px; height: 200px; float: left;}
+
+.con1 li {width: 440px; margin-left: 5px; margin-right: 5px;}
+
+.con1 li a {font-size: 14px; line-height: 30px; margin-left: 5px;  margin-right: 5px;}
+
+.con1 li a:hover {font-weight: bold;}
+
+.con1 li span {float: right;}
+
+.con1 li:nth-child(2n) {background-color: #dddddd;}
+
+.con2 {width: 450px; height: 200px; float: left;}
+
+.con2 img {float: left; padding: 10px; margin-top: 5px; margin-left: 10px; width: 120px; height: 135px;}
+
+.con2 img:hover {opacity: 0.5;}
+
+.con3 {width: 300px; height: 200px; float: right;}
+
+.con3:hover {opacity: 0.5;}
+
+.con3 img {width: 280px; height: 190px; margin-top: 5px; margin-left: 10px;}
+
+.bntext {position: absolute; width: 100px; height: 30px; font-size: 14px; font-weight: bold; text-align:center; line-height: 30px;
+background-color: rgba(0, 0, 0, 0.5); color: #ffffff; left: 82%; top: 80%;}
+
+.m_cost_title {text-align: center; margin-top: 50px; margin-bottom: 50px;}
+
+
+#layer {display: none; width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 1; }
+
+#layer.active {display: block;}
+
+.layer_up {width: 500px; height: 300px; background-color: #ffffff; position: fixed; left: 30%; top: 30%; border-radius: 10px; border: 3px solid#dddddd;}
+
+.uptitle {font-size: 20px; padding: 20px; text-align: center; font-weight: bold; margin-top: 10px;}
+
+.upbody {font-size: 16px; padding: 20px;}
+
+.upbody p {margin-top: 40px; font-size: 13px;}
+
+.btn {position: absolute; right: 10px; bottom: 10px; width: 90px; height: 30px; line-height: 30px; text-align: center; font-size: 15px; font-weight: bold;
+cursor: pointer; background-color: #dddddd;}
+
+.btn:hover {opacity: 0.5;}
+
+.m_cost03 {margin-top: 20px; color: #777777;}
+
+.PB_wrap{width:100%; overflow:hidden; margin-bottom:75px; }
+		.PB_bx02{width:100%; background-image:url(http://www.verygoodwedding.co.kr/images/PB_backimg.jpg); background-repeat:no-repeat;}
+		.PB_inbx{width:1280px; margin:0 auto; overflow:hidden; position:relative; padding:60px 0 40px 0;}
+			/*.PB_arrow_bx{position:absolute; top:202px; width:1280px; margin:0 auto; z-index:3;}
+			.PB_left{width:70px; float:left;}
+				.PB_left img{display:block;}
+			.PB_right{width:70px; float:right;}
+				.PB_right{display:block;}*/
+			.PB_left, .PB_right{margin-top:151px; cursor:pointer;}
+			.PB_left{width:45px; float:left;}
+				.PB_left img{display:block;}
+			.PB_right{width:45px; float:right;}
+				.PB_right{display:block;}
+				
+			.PB_onebx{width:378px; float:left; margin-right:15px;}
+			
+			.PB_onebx:last-child{margin-right:0;}
+			
+			.PB_top_pic{width:100%;}
+			.PB_top_pic img{display:block; cursor:pointer;}
+			.PB_text_bx{width:100%; text-align:center; padding:25px 0; background-color:#FFF;}
+				.PB_title01,.PB_title02{dislplay:block;line-height:1.2;}
+				.PB_title01{ font-size:20px; color:#0b6de6; margin-bottom:10px; margin-top:5px; display:block; height:24px; overflow:hidden;}
+				.PB_title02{ color:#1a1a1a; font-size:18px; height:24px; display:inline-block; overflow:hidden;}
+			
+			
+/*-------------------- // 페이백웨딩 끝--------------------*/
+
+footer {width: 1200px; height: 200px; background-color: #3f3c3e;}
+
+.bottom {width: 1200px; height: 200px;background-color: #3f3c3e;}
+
+.side {float: left; width: 400px; height: 200px;}
+
+.btmenu {width: 1000px; height: 50px;}
+
+.btmenu ul {float: left;}
+
+.btmenu li {width: 90px; height: 30px; margin-left: 10px; text-align: center; color: #ffffff; }
+
+.btmenu li a  {font-size: 12px;  color: #ffffff; line-height: 50px;}
+
+.btmenu li:hover { text-decoration:underline; color:#ffffff }
+
+.copy {width: 300px; text-align:left;  font-size: 20px; color: #ffffff;float: left; margin-top: 16px;margin-left: 100px;}
+
+.fsit {float: right; width: 400px; height: 200px;}
+
+.fsit select {width: 150px; margin-left: 230px;margin-top: 16px; }
+
+.copy1 {font-size: 12px; height: 100px; text-align: left; margin-left: 140px; margin-top: 100px;}
+
+.copy1 p {color: #dddddd;}
