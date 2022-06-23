@@ -2648,7 +2648,7 @@ input, select, textarea {
 					margin-right: auto;
 				}
 
-		header.major p {
+		.list li{
 			font-size: 1em;
 			letter-spacing: -0.025em;
 			text-align: left;
@@ -2656,7 +2656,7 @@ input, select, textarea {
 			margin: auto;
 		}
 
-		header.major p span {
+		.list li span {
 			float: right;
 		}
 
@@ -2675,6 +2675,7 @@ input, select, textarea {
 
 	.major li {
 		margin: auto;
+		list-style: none;
 	}
 
 	@media screen and (max-width: 736px) {
